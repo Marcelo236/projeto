@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Quimioterapia - Santa Casa de Misericórdia</title>
+    <style>
+        /* Reset de estilo para maior consistência */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(to right, #3498db, #2980b9);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            background-color: #2980b9;
+        }
+
+        nav a {
+            margin: 0 20px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #f1c40f;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: 20px auto;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        .card {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        ul li:last-child {
+            border-bottom: none;
+        }
+
+        footer {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+
+        /* Layout responsivo */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Guia de orientações para pacientes oncológicos.</h1>
+    <p>"Uma ação pela vida"</p>
+</header>
+
+<nav>
+    <a href="#página-principal">Página Principal</a>
+    <a href="#manejo-dos-efeitos-colaterais-pós-quimioterapia">Efeitos Colaterais</a>
+    <a href="#alimentacao">Dicas de Alimentação</a>
+    <a href="#cuidados">Cuidados no Tratamento</a>
+    <a href="#beneficios">Benefícios Legais</a>
+</nav>
+
+<section id="página-principal">
+    <div class="card">
+        <h2>Orientações para pacientes oncológicos</h2>
+        <p>Esse guia foi desenvolvido para ajudar pacientes em processo de tratamento de câncer realizando quimioterapia com informações pertinentes e cuidados necessários durante o período de tratamento ou dos efeitos colaterais decorrentes do processo.</p>
+        <strong>O que é a quimioterapia:</strong> É um tratamento com substâncias químicas que tem o objetivo de diminuir ou impedir o crescimento das células tumorais. Essas substâncias tem como função destruir as células cancerígenas, porém elas atingem também as células normais que se recuperam após um período de tempo. Por isso há a necessidade de garantir um manejo nos efeitos colaterais causados pela quimioterapia, para o paciente ter uma melhor qualidade de vida durante o seu tratamento.        
+    </div>
+</section>
+
+<section id="manejo-dos-efeitos-colaterais-pós-quimioterapia">
+    <div class="card">
+        <h2>Manejo dos Efeitos Colaterais Pós-Quimioterapia</h2>
+        <p>A quimioterapia pode causar diversos efeitos colaterais. Aqui estão algumas maneiras de lidar com eles:</p>
+        <ul>
+            <li><strong>Náusea:</strong> Existem medicamentos para aliviar esses sintomas, oriente-se com o seu médico que o prescreve. Para diminuir esses efeitos, ingerir comidas e bebidas devagar em pequenas quantidades. Evite alimentos que causam um forte odor, tais como condimentados e gordurosos.</li>
+            <li><strong>Cansaço:</strong> Fazer repouso durante o dia e dormir mais a noite, limitar atividades físicas e evitar movimentos bruscos, assim como manter uma alimentação adequada.</li>
+            <li><strong>Queda de Cabelo (Alopécia):</strong> A queda de pelos pode ocorrer em todas as partes do corpo (cabeça, face, braço, pernas, axilas e zona púbica). Essa é uma situação momentânea, pois após a finalização do tratamento os pelos voltam a crescer. Devido a queda dos pelos a pele fica mais exposta e suscetível à sensibilidade, para proteger recomenda-se usar protetor e/ou bloqueador solar nas partes do corpo afetada, tais como lenços, perucas, turbantes, boné, etc.</li>
+            <li><strong>Febre:</strong> Devido a diminuição das células de defesa do organismo causado pela quimioterapia, o corpo fica suscetível à contrair infecções. A febre é um dos principais indicativos de que o organismo está vulnerável. Procure o atendimento mais próximo em caso de febre persistente acima de 38ºC e/ou recorrente.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="alimentacao">
+    <div class="card">
+        <h2>Dicas de Alimentação</h2>
+        <p>A alimentação adequada pode ser uma aliada importante durante o tratamento:</p>
+        <ul>
+            <li>Os alimentos devem ser higienizados rigorosamente antes de serem ingeridos.</li>
+            <li>Coma frutas e verduras ricas em antioxidantes.</li>
+            <li>Evite alimentos processados e muito gordurosos.</li>
+            <li>Mantenha-se hidratado bebendo bastante água.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="cuidados">
+    <div class="card">
+        <h2>Cuidados no Tratamento</h2>
+        <p>Antes, durante e após a infusão de quimioterápicos, é importante:</p>
+        <ul>
+            <li><strong>Antes:</strong> Hidratar-se adequadamente e seguir as orientações do médico.</li>
+            <li><strong>Durante:</strong> Informar a equipe médica sobre qualquer desconforto.</li>
+            <li><strong>Depois:</strong> Descansar e monitorar efeitos colaterais. Procurar ajuda médica se necessário.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="beneficios">
+    <div class="card">
+        <h2>Benefícios Legais para Pacientes Oncológicos</h2>
+        <p>Os pacientes quimioterápicos têm direito a alguns benefícios, como:</p>
+        <ul>
+            <li>Isenção de imposto de renda sobre aposentadorias.</li>
+            <li>Direito ao auxílio-doença e aposentadoria por invalidez.</li>
+            <li>Liberação do FGTS e PIS/PASEP.</li>
+            <li>Quitação de financiamento de imóvel pelo sistema financeiro de saúde.</li>
+            <li>Aposentadoria por invalidez.</li>
+            <li>Transporte público gratuito.</li>
+        </ul>
+        <p>Para cada benefício procurar o órgão responsável que o administra.</p>
+    </div>
+</section>
+
+<footer>
+    <p>Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
